@@ -8,6 +8,9 @@ imutils = "*"
 opencv-python = "*"
 numpy = "*"
 dlib = "*"
+flask = "*"
+flask-compress = "*"
+flask-caching = "*"
 
 [dev-packages]
 

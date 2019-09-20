@@ -7,3 +7,9 @@ services:
     build: ./dwi-frontend
     ports:
       - 80:80
+  
+  backend:
+    container_name: backend
+    build: ./dwi-backend
+    ports:
+      - 5000:80
