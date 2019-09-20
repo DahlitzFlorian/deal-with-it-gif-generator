@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  frontend:
+    hostname: localhost
+    container_name: frontend
+    build: ./dwi-frontend
+    ports:
+      - 80:80
